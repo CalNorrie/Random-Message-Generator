@@ -1,4 +1,3 @@
-
 const randomAdjective = () => {
     const adjectiveList = ['Good', 'Bad', 'Questionable', 'Immaculate', 'Horrific', 'Confusing', 'Memorable', 'Cataclysmic', 'Boring', 'Marvellous']
     return adjectiveList[Math.floor(Math.random() * 10)]
