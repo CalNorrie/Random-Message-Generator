@@ -1,11 +1,12 @@
+
+const randomAdjective = () => {
+    const adjectiveList = ['Good', 'Bad', 'Questionable', 'Immaculate', 'Horrific', 'Confusing', 'Memorable', 'Cataclysmic', 'Boring', 'Marvellous']
+    return adjectiveList[Math.floor(Math.random() * 10)]
+}
+
 const randomNouns = () => {
     const nounsList = ['vibes', 'blessings', 'riches', 'tidings', 'memories', 'fortunes', 'misfortunes', 'days', 'nights', 'futures']
     return nounsList[Math.floor(Math.random() * 10)]
-}
-
-const randomAdjective = () => {
-    const adjectiveList = ['good', 'bad', 'questionable', 'immaculate', 'horrific', 'confusing', 'memorable', 'cataclysmic', 'boring', 'marvellous']
-    return adjectiveList[Math.floor(Math.random() * 10)]
 }
 
 const randomVerb = () => {
